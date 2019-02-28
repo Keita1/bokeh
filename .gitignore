@@ -17,6 +17,7 @@
 *.coverage.*
 **/screenshots/current*
 **/screenshots/diff*
+.vscode
 
 # Compiled source #
 ###################
@@ -67,6 +68,8 @@
 **/.ipynb_checkpoints
 # tests/examples reports
 report.html
+# MyPy Cache
+.mypy_cache
 
 # Logs and databases #
 ######################
